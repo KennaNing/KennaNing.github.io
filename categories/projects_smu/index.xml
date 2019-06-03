@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects_SMU on KennaNing&#39;s Home</title>
+    <link>http://KennaNing.github.io/categories/projects_smu/</link>
+    <description>Recent content in Projects_SMU on KennaNing&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://KennaNing.github.io/categories/projects_smu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Move some notes from JianShu</title>
+      <link>http://KennaNing.github.io/2019/mv-jianshu/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/mv-jianshu/</guid>
+      <description> tmux brew install tmux tmux new -s demo 新建名为demo的session tmux a -t demo attach tmux d detache tmux ls ctrl_b_, 修改window name ctrl_b_c 新建window ctrl_d 退出  关于显卡 nvidia-smi 查看显卡 CUDA_VISIBLE_DEVICES=i 指定i显卡
+virtual_env #用python创建 python -m venv unet_venv source public/Unet/unet_venv/bin/activate deactivate # 用conda创建(fish 和 conda 不兼容) conda create -n unet_venv python=3.6 装在默认路径 conda create --prefix=public/NingFang/unet_venv python=3.6 source activate /public/Unet/unet_venv deactivate  path vim ~/.config/fish/conf.d/xxx.fish set PATH(你想要加的路径) PATH 重启fish  deb-package install cd xxx/xxx/ sudo dpkg -i deb_filename 发生依赖性错误时-&amp;gt; sudo apt-get install -f sudo dpkg -l 查看已安装的软件 sudo dpkg -r 卸载  shadowsocks sudo service shadowsocks status sudo service shadowsocks start  </description>
+    </item>
+    
+    <item>
+      <title>Simple file operations</title>
+      <link>http://KennaNing.github.io/2019/file-operations/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/file-operations/</guid>
+      <description> os.listdir() data_dir=&#39;flower_photoes/&#39; # 返回指定文件夹包含的文件和文件夹的列表 contents=os.listdir(data_dir)  </description>
+    </item>
+    
+    <item>
+      <title>Simple math notes</title>
+      <link>http://KennaNing.github.io/2019/math_compute/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/math_compute/</guid>
+      <description> np.mean() matrix=[[1,2,3],[2,3,4],[3,4,5],[4,5,6]] np.mean(matrix) -&amp;gt; 3.5 对所有元素求均值 np.mean(matrix,0) -&amp;gt; [2.5,3.5,4.5] 对各列求均值,压缩行 np.mean(matrix,1) -&amp;gt; [[2],[3],[4],[5]] 对各行求均值，压缩列  </description>
+    </item>
+    
+    <item>
+      <title>Build my blog with hugo</title>
+      <link>http://KennaNing.github.io/2019/build-blog-with-hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/build-blog-with-hugo/</guid>
+      <description>一直想找到自己喜欢的网站写自己的一些学习心得，试过onenote，简书等，onenote在linux上又只能用网页版，简书的层级布局略感粗糙，在搜寻了一阵之后，因缘巧合下得知hugo，恰好最近比较有空，就开始了又一次新的尝试。
+requirements Hugo github 有关git的基础知识  About hugo Hugo是用静态语言实现的静态网站生成器。官网有详细的安装，主题模版介绍，因为其简单，易用，高效，易部署而渐渐受到很多人的青睐。
+Install Hugo 环境：Mac
+1. brew install hugo 2. hugo version #检查安装是否成功  Creat a new site hugo new site blog # 在blog文件夹下建一个网站  check the tree categories tree blog # 如果你没有安装tree，则先 brew install tree  Add a theme 可以在https://themes.gohugo.io/选择自己喜欢的主题，本文使用简洁美观的Leavelt themes
+cd blog/themes git init git clone https://github.com/liuzc/LeaveIt.git theme = &amp;quot;LeaveIt&amp;quot; # 打开config.toml 编辑文件中的theme或者使用 echo &#39;theme=“LeavIt” &#39; &amp;gt;&amp;gt; config.toml 实现相同功能  Add some content hugo new posts/my_first_post.</description>
+    </item>
+    
+    <item>
+      <title>About git</title>
+      <link>http://KennaNing.github.io/2019/learn_git/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/learn_git/</guid>
+      <description>git 简介 目前世界上最先进的版本控制系统
+创建版本库 ls -ah 可以看见隐藏的命令
+初始化 git repo：git init
+添加文件到 git repo：
+ git add &amp;lt; file &amp;gt; 把文件添加到暂存区(stage) git commit -m &amp;lt; message &amp;gt; 把 stage 中的所有内容提交到分支(branch)  时光穿梭机  掌握工作区的状态：git status 查看修改内容：git diff 退出（q）  版本回退  查看提交历史，确定回退到哪个版本：git log 查看命令历史，确定回到未来哪个版本：git reflog 指向当前版本 HEAD，指向上一百个版本： HEAD -100 git reset --hard coommit_id  git 的管理修改 git 跟踪并管理的是修改，并非文件，每次修改，如果不git add 到stage，就不会加入到commit中
+撤销修改 incase you add stupid boss to your working directory,what you should do</description>
+    </item>
+    
+  </channel>
+</rss>

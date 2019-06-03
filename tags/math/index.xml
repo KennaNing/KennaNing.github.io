@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on KennaNing&#39;s Home</title>
+    <link>http://KennaNing.github.io/tags/math/</link>
+    <description>Recent content in math on KennaNing&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://KennaNing.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple math notes</title>
+      <link>http://KennaNing.github.io/2019/math_compute/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/math_compute/</guid>
+      <description> np.mean() matrix=[[1,2,3],[2,3,4],[3,4,5],[4,5,6]] np.mean(matrix) -&amp;gt; 3.5 对所有元素求均值 np.mean(matrix,0) -&amp;gt; [2.5,3.5,4.5] 对各列求均值,压缩行 np.mean(matrix,1) -&amp;gt; [[2],[3],[4],[5]] 对各行求均值，压缩列  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="KennaNing">
+  
+  
+  
+  <link rel="prev" href="http://KennaNing.github.io/2019/learn_git/" />
+  <link rel="next" href="http://KennaNing.github.io/2019/luxun/" />
+  <link rel="canonical" href="http://KennaNing.github.io/2019/build-blog-with-hugo/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Build my blog with hugo | KennaNing&#39;s Home
+       
+  </title>
+  <meta name="title" content="Build my blog with hugo | KennaNing&#39;s Home">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http://KennaNing.github.io"
+    },
+    "articleSection" : "post",
+    "name" : "Build my blog with hugo",
+    "headline" : "Build my blog with hugo",
+    "description" : "learning own blog home",
+    "inLanguage" : "en-us",
+    "author" : "KennaNing",
+    "creator" : "KennaNing",
+    "publisher": "KennaNing",
+    "accountablePerson" : "KennaNing",
+    "copyrightHolder" : "KennaNing",
+    "copyrightYear" : "2019",
+    "datePublished": "2019-04-04 00:00:00 &#43;0000 UTC",
+    "dateModified" : "2019-04-04 00:00:00 &#43;0000 UTC",
+    "url" : "http://KennaNing.github.io/2019/build-blog-with-hugo/",
+    "wordCount" : "280",
+    "keywords" : [ "experiences", "KennaNing&#39;s Home"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="http://KennaNing.github.io">KennaNing&#39;s Home</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="http://KennaNing.github.io">KennaNing&#39;s Home</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Build my blog with hugo</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://KennaNing.github.io" rel="author">KennaNing</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2019-04-04 itemprop="datePublished">April 4, 2019</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://KennaNing.github.io/categories/projects_smu/"> Projects_SMU </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<p>一直想找到自己喜欢的网站写自己的一些学习心得，试过onenote，简书等，onenote在linux上又只能用网页版，简书的层级布局略感粗糙，在搜寻了一阵之后，因缘巧合下得知hugo，恰好最近比较有空，就开始了又一次新的尝试。</p>
+
+<h1 id="requirements">requirements</h1>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Hugo</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> github</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 有关git的基础知识</label></li>
+</ul>
+
+<h1 id="about-hugo">About hugo</h1>
+
+<p><a href="https://gohugo.io/" rel="nofollow noreferrer" target="_blank">Hugo</a>是用静态语言实现的静态网站生成器。官网有详细的安装，主题模版介绍，因为其简单，易用，高效，易部署而渐渐受到很多人的青睐。</p>
+
+<h2 id="install-hugo">Install Hugo</h2>
+
+<p>环境：Mac</p>
+
+<pre><code class="language-markdown">1. brew install hugo 
+2. hugo version  #检查安装是否成功
+</code></pre>
+
+<h2 id="creat-a-new-site">Creat a new site</h2>
+
+<pre><code class="language-markdown">hugo new site blog  # 在blog文件夹下建一个网站
+</code></pre>
+
+<h2 id="check-the-tree-categories">check the tree categories</h2>
+
+<pre><code class="language-markdown">tree blog   # 如果你没有安装tree，则先 brew install tree
+</code></pre>
+
+<h2 id="add-a-theme">Add a theme</h2>
+
+<p>可以在<a href="https://themes.gohugo.io/" rel="nofollow noreferrer" target="_blank">https://themes.gohugo.io/</a>选择自己喜欢的主题，本文使用简洁美观的<a href="https://github.com/liuzc/LeaveIt" rel="nofollow noreferrer" target="_blank">Leavelt themes</a></p>
+
+<pre><code class="language-markdown">cd blog/themes
+git init
+git clone https://github.com/liuzc/LeaveIt.git
+theme = &quot;LeaveIt&quot; # 打开config.toml 编辑文件中的theme或者使用 echo 'theme=“LeavIt” ' &gt;&gt; config.toml 实现相同功能
+</code></pre>
+
+<h1 id="add-some-content">Add some content</h1>
+
+<p><code>hugo new posts/my_first_post.md</code></p>
+
+<pre><code class="language-markdown">可以打开文章编辑内容
+---                    #文章顶部的meta信息
+title: &quot;My First Post&quot;
+date: 2017-12-14T11:18:15+08:00
+weight: 70
+keywords: [&quot;hugo&quot;]
+description: &quot;第一篇文章&quot;
+tags: [&quot;hugo&quot;, &quot;pages&quot;]
+categories: [&quot;pages&quot;]
+author: &quot;&quot;
+---
+
+这里是文章内容
+</code></pre>
+
+<h2 id="start-the-hugo-server">Start the hugo server</h2>
+
+<pre><code class="language-markdown">▶ hugo server -D
+
+
+                   | EN
++------------------+----+
+  Pages            | 10
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  3
+  Processed images |  0
+  Aliases          |  1
+  Sitemaps         |  1
+  Cleaned          |  0
+
+
+Total in 11 ms
+Watching for changes in /Users/bep/quickstart/{content,data,layouts,static,themes}
+Watching for config changes in /Users/bep/quickstart/config.toml
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+</code></pre>
+
+<p>执行命令后，可以访问 <a href="http://localhost:1313/" rel="nofollow noreferrer" target="_blank">http://localhost:1313/</a> 查看效果</p>
+
+<h1 id="deploy-to-github-pages">Deploy to GitHub Pages</h1>
+
+<h2 id="github">github</h2>
+
+<ul>
+<li>首先创建自己的guthub账号，创建两个repo，一个用来放源码repo，命名为blog，另一个用来准备发博客使用的pages repo</li>
+
+<li><p>将本地的源码repo提交到github的源码repo</p>
+
+<pre><code class="language-markdown">git add -A
+git commit -m &quot;initial all files&quot;
+git remote add github https://github.com/&lt;username&gt;/blog
+git push -u origin master
+</code></pre></li>
+
+<li><p>创建<code>&lt;username&gt;.github.io</code> repo,详情可参照 <a href="https://pages.github.com/" rel="nofollow noreferrer" target="_blank">https://pages.github.com/</a></p></li>
+
+<li><p>将 config.toml 中的<code>baseURL</code>设置为<code>&lt;username&gt;.github.io</code></p></li>
+
+<li><p>生成<a href="https://github.com/settings/tokens/new" rel="nofollow noreferrer" target="_blank">Github Acess Token</a>,至少要有public_repo的权限</p></li>
+
+<li><p>配置 Travis ：</p>
+
+<ol>
+<li>在<a href="https://travis-ci.org/" rel="nofollow noreferrer" target="_blank">Travis CI</a>中关联自己的github账号，并激活blog repo</li>
+<li>在blog的设置页面，除了 LImit concurrent jobs，其他的都选择ON，并把刚生成的Github Access Token 添加到环境变量</li>
+<li><code>&lt;username&gt;.github.io</code>的设置页面只需要将Github Access Token 添加到环境变量</li>
+</ol></li>
+
+<li><p>在blog repo 中添加 .travis.yml</p>
+
+<pre><code class="language-markdown">sudo: false
+language: go
+git:
+depth: 1
+install: go get -v github.com/gohugoio/hugo
+script:
+$GOPATH/bin/hugo
+deploy:
+provider: pages
+skip_cleanup: true
+github_token: $GITHUB_TOKEN
+on:
+    branch: master
+local_dir: public
+repo: &lt;username&gt;/&lt;username&gt;.github.io
+fqdn: &lt;custom-domain-if-needed&gt;
+target_branch: master
+email: &lt;github-email&gt;
+name: &lt;github-username&gt;
+
+</code></pre></li>
+</ul>
+
+<blockquote>
+<p>参考 <a href="https://gohugo.io/getting-started/quick-start/" rel="nofollow noreferrer" target="_blank">https://gohugo.io/getting-started/quick-start/</a></p>
+
+<p>参考 <a href="https://segmentfault.com/a/1190000012975914" rel="nofollow noreferrer" target="_blank">https://segmentfault.com/a/1190000012975914</a></p>
+</blockquote>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>KennaNing </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://KennaNing.github.io/2019/build-blog-with-hugo/>http://KennaNing.github.io/2019/build-blog-with-hugo/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可& Special Thanks https://github.com/liuzc/LeaveIt/tree/master/exampleSite 
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://KennaNing.github.io/tags/experiences/">
+                    #experiences</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://KennaNing.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="http://KennaNing.github.io/2019/learn_git/" class="prev" rel="prev" title="About git"><i class="iconfont icon-left"></i>&nbsp;About git</a>
+         
+        
+        <a href="http://KennaNing.github.io/2019/luxun/" class="next" rel="next" title="About Principles">About Principles&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://KennaNing.github.io">KennaNing</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

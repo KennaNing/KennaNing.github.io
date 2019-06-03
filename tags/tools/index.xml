@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on KennaNing&#39;s Home</title>
+    <link>http://KennaNing.github.io/tags/tools/</link>
+    <description>Recent content in tools on KennaNing&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://KennaNing.github.io/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Move some notes from JianShu</title>
+      <link>http://KennaNing.github.io/2019/mv-jianshu/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/mv-jianshu/</guid>
+      <description> tmux brew install tmux tmux new -s demo 新建名为demo的session tmux a -t demo attach tmux d detache tmux ls ctrl_b_, 修改window name ctrl_b_c 新建window ctrl_d 退出  关于显卡 nvidia-smi 查看显卡 CUDA_VISIBLE_DEVICES=i 指定i显卡
+virtual_env #用python创建 python -m venv unet_venv source public/Unet/unet_venv/bin/activate deactivate # 用conda创建(fish 和 conda 不兼容) conda create -n unet_venv python=3.6 装在默认路径 conda create --prefix=public/NingFang/unet_venv python=3.6 source activate /public/Unet/unet_venv deactivate  path vim ~/.config/fish/conf.d/xxx.fish set PATH(你想要加的路径) PATH 重启fish  deb-package install cd xxx/xxx/ sudo dpkg -i deb_filename 发生依赖性错误时-&amp;gt; sudo apt-get install -f sudo dpkg -l 查看已安装的软件 sudo dpkg -r 卸载  shadowsocks sudo service shadowsocks status sudo service shadowsocks start  </description>
+    </item>
+    
+    <item>
+      <title>About git</title>
+      <link>http://KennaNing.github.io/2019/learn_git/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/learn_git/</guid>
+      <description>git 简介 目前世界上最先进的版本控制系统
+创建版本库 ls -ah 可以看见隐藏的命令
+初始化 git repo：git init
+添加文件到 git repo：
+ git add &amp;lt; file &amp;gt; 把文件添加到暂存区(stage) git commit -m &amp;lt; message &amp;gt; 把 stage 中的所有内容提交到分支(branch)  时光穿梭机  掌握工作区的状态：git status 查看修改内容：git diff 退出（q）  版本回退  查看提交历史，确定回退到哪个版本：git log 查看命令历史，确定回到未来哪个版本：git reflog 指向当前版本 HEAD，指向上一百个版本： HEAD -100 git reset --hard coommit_id  git 的管理修改 git 跟踪并管理的是修改，并非文件，每次修改，如果不git add 到stage，就不会加入到commit中
+撤销修改 incase you add stupid boss to your working directory,what you should do</description>
+    </item>
+    
+  </channel>
+</rss>

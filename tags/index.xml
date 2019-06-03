@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on KennaNing&#39;s Home</title>
+    <link>http://KennaNing.github.io/tags/</link>
+    <description>Recent content in Tags on KennaNing&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://KennaNing.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>women</title>
+      <link>http://KennaNing.github.io/tags/women/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/tags/women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proverbs</title>
+      <link>http://KennaNing.github.io/tags/proverbs/</link>
+      <pubDate>Sun, 21 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/tags/proverbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>file</title>
+      <link>http://KennaNing.github.io/tags/file/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/tags/file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>http://KennaNing.github.io/tags/math/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>http://KennaNing.github.io/tags/tools/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experiences</title>
+      <link>http://KennaNing.github.io/tags/experiences/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/tags/experiences/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

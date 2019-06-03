@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>file on KennaNing&#39;s Home</title>
+    <link>http://KennaNing.github.io/tags/file/</link>
+    <description>Recent content in file on KennaNing&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://KennaNing.github.io/tags/file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simple file operations</title>
+      <link>http://KennaNing.github.io/2019/file-operations/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/file-operations/</guid>
+      <description> os.listdir() data_dir=&#39;flower_photoes/&#39; # 返回指定文件夹包含的文件和文件夹的列表 contents=os.listdir(data_dir)  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="KennaNing">
+  
+  
+  
+  
+  <link rel="next" href="http://KennaNing.github.io/2019/build-blog-with-hugo/" />
+  <link rel="canonical" href="http://KennaNing.github.io/2019/learn_git/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           About git | KennaNing&#39;s Home
+       
+  </title>
+  <meta name="title" content="About git | KennaNing&#39;s Home">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http://KennaNing.github.io"
+    },
+    "articleSection" : "post",
+    "name" : "About git",
+    "headline" : "About git",
+    "description" : "learning git",
+    "inLanguage" : "en-us",
+    "author" : "KennaNing",
+    "creator" : "KennaNing",
+    "publisher": "KennaNing",
+    "accountablePerson" : "KennaNing",
+    "copyrightHolder" : "KennaNing",
+    "copyrightYear" : "2019",
+    "datePublished": "2019-04-03 00:00:00 &#43;0000 UTC",
+    "dateModified" : "2019-04-03 00:00:00 &#43;0000 UTC",
+    "url" : "http://KennaNing.github.io/2019/learn_git/",
+    "wordCount" : "282",
+    "keywords" : [ "tools", "KennaNing&#39;s Home"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="http://KennaNing.github.io">KennaNing&#39;s Home</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="http://KennaNing.github.io">KennaNing&#39;s Home</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/post/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">About git</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="http://KennaNing.github.io" rel="author">KennaNing</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2019-04-03 itemprop="datePublished">April 3, 2019</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="http://KennaNing.github.io/categories/projects_smu/"> projects_SMU </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<h1 id="git-简介">git 简介</h1>
+
+<p>目前世界上最先进的版本控制系统</p>
+
+<h2 id="创建版本库">创建版本库</h2>
+
+<p><code>ls -ah</code> 可以看见隐藏的命令<br />
+初始化 git repo：<code>git init</code><br />
+添加文件到 git repo：</p>
+
+<ol>
+<li><code>git add &lt; file &gt;</code> 把文件添加到暂存区(stage)</li>
+<li><code>git commit -m &lt; message &gt;</code> 把 stage 中的所有内容提交到分支(branch)</li>
+</ol>
+
+<h1 id="时光穿梭机">时光穿梭机</h1>
+
+<ol>
+<li>掌握工作区的状态：<code>git status</code></li>
+<li>查看修改内容：<code>git diff</code> 退出（q）</li>
+</ol>
+
+<h2 id="版本回退">版本回退</h2>
+
+<ol>
+<li>查看提交历史，确定回退到哪个版本：<code>git log</code></li>
+<li>查看命令历史，确定回到未来哪个版本：<code>git reflog</code></li>
+<li>指向当前版本 <code>HEAD</code>，指向上一百个版本： <code>HEAD -100</code>  <code>git reset  --hard coommit_id</code></li>
+</ol>
+
+<h2 id="git-的管理修改">git 的管理修改</h2>
+
+<p>git 跟踪并管理的是修改，并非文件，每次修改，如果不<code>git add</code> 到stage，就不会加入到<code>commit</code>中</p>
+
+<h2 id="撤销修改">撤销修改</h2>
+
+<p>incase you add stupid boss to your working directory,what you should do</p>
+
+<ol>
+<li>还未 <code>git add</code>：<code>git checkout --file</code></li>
+<li>已 git add：<code>git reset HEAD &lt;file&gt;</code> 回到第一步，按第一步操作</li>
+<li>已 <code>git commit</code>:参考版本回退一节</li>
+</ol>
+
+<h2 id="删除文件">删除文件</h2>
+
+<ol>
+<li>删错了，版本库中还有：<code>git checkout -- test.txt</code></li>
+<li>确定删掉：<code>git rm test.txt</code> &amp; <code>git commit -m 'remove test.txt'</code></li>
+</ol>
+
+<h1 id="远程仓库">远程仓库</h1>
+
+<h2 id="添加远程仓库">添加远程仓库</h2>
+
+<ol>
+<li>关联：<code>git remote add origin git@server-name:path/repo-name.git</code></li>
+<li>push: <code>git push -u origin master</code> or <code>git push origin master</code></li>
+</ol>
+
+<h2 id="从远程库克隆">从远程库克隆</h2>
+
+<p><code>git clone git@github.com:michaelliao/gitskills.git</code></p>
+
+<h1 id="分支管理">分支管理</h1>
+
+<h2 id="创建与合并分支">创建与合并分支</h2>
+
+<ol>
+<li>查看分支：<code>git branch</code></li>
+<li>创建分支：<code>git branch &lt;name&gt;</code></li>
+<li>切换分支：<code>git checkout &lt;name&gt;</code></li>
+<li>创建+切换分支：<code>git checkout -b &lt;name&gt;</code></li>
+<li>合并某分支到当前分支：<code>git merge &lt;name&gt;</code></li>
+<li>删除分支：<code>git branch -d &lt;name&gt;</code></li>
+</ol>
+
+<h2 id="解决冲突">解决冲突</h2>
+
+<ol>
+<li>当git无法自动合并分支时，必须首先手动解决confict，再 add，commit。</li>
+<li><code>git log --graph</code>可以看到分支合并图</li>
+</ol>
+
+<h2 id="分支管理策略">分支管理策略</h2>
+
+<ol>
+<li>实际开发中，<code>master</code>仅用来发布新版本，不能在上面干活，干活都在<code>dev</code>分支上</li>
+<li><code>git merge --no-ff</code>表示用普通模式合并，即能看出来曾经做过合并</li>
+</ol>
+
+<h2 id="bug分支">Bug分支</h2>
+
+<ol>
+<li>master有bug，但是目前仍在dev：将dev刚写的部分代码stash<code>git stash</code>，以dev分支为基础创建issue-101，debug后，merge到master,删掉<code>issue-101</code>分支</li>
+<li>回到dev，继续干活<code>git stash pop</code></li>
+</ol>
+
+<h2 id="feature-分支">feature 分支</h2>
+
+<ol>
+<li>添加新功能，创建新分支：<code>git checkout -b feature-vulcan</code></li>
+<li>丢弃一个未合并的分支：<code>git branch -D &lt;name&gt;</code></li>
+</ol>
+
+<h2 id="多人协作">多人协作</h2>
+
+<ol>
+<li>查看远程库信息：<code>git remote -v</code></li>
+<li>从本地推送分支<code>git push origin branch-name</code>，如果push失败，先<code>git pull</code>，再提交</li>
+<li>在本地创建和远程对应的分支：<code>git checkout -b branch-name origin/branch-name</code></li>
+<li>建立本地分支和远程分支的关联：<code>git branch --set-upstream branch-name origin/branch-name</code></li>
+</ol>
+
+<h2 id="rebase">Rebase</h2>
+
+<p>rebase操作把本地未push的分叉提交历史整理成直线，使得查看历史提交变化时更容易</p>
+
+<h1 id="标签管理">标签管理</h1>
+
+<p>标签🏷️是版本库的一个快照，跟某个commit绑定在一起</p>
+
+<h2 id="创建标签">创建标签</h2>
+
+<ol>
+<li><code>git tag &lt;tagname&gt;</code>用于新建一个标签，默认为<code>HEAD</code> ，也可以通过 <code>git log</code>找到你想加tag的 commit id</li>
+<li>指定标签信息:<code>git tag -a &lt;tagname&gt; -m &quot;babalabala&quot;</code></li>
+<li>查看所有标签:<code>git tag</code></li>
+</ol>
+
+<h2 id="操作标签">操作标签</h2>
+
+<ol>
+<li>push本地的标签：<code>git push origin &lt;tagname&gt;</code>or <code>git push origin --tags</code></li>
+<li>如果标签已推送到远程，则先删除本地标签：<code>git tag -d &lt;tagname</code></li>
+<li>再删除远程标签：<code>git push origin :refs/tags/&lt;tagname&gt;</code></li>
+</ol>
+
+<h1 id="github">github</h1>
+
+<p>如果想参与一个开源项目比如bootstrp，点Fork就在自己的账号下克隆了一个bootstrap仓库，然后从自己的账号下clone<code>git clone git@github.com:KennaNing/bootstrap;.git</code>，才能推送修改，否则没有权限。</p>
+
+<h1 id="码云-gitee-com">码云(gitee.com)</h1>
+
+<p>一个本地库如何既关联码云，又关联github呢？（add时给不同的远程库加上名字）</p>
+
+<ol>
+<li><code>git remote rm origin</code></li>
+<li><code>git remote add github git@github.com:KennaNing/learngit.git</code></li>
+<li><code>git remote add gitee git@gitee.com:KennaNing/learngit.git</code></li>
+<li><code>git remote -v</code>查看远程库的信息</li>
+<li>推送时：<code>git push github master</code>or <code>git push gitee master</code></li>
+</ol>
+
+<h1 id="自定义git">自定义git</h1>
+
+<h2 id="忽略特殊文件-gitignore">忽略特殊文件(.gitignore)</h2>
+
+<h2 id="配置别名">配置别名</h2>
+
+<ol>
+<li><code>git config --global alias.st status</code> &amp; co,ci,br</li>
+<li>撤销修改是把暂存区的修改撤销掉（unstage），重新返回工作区，即是一个unstage操作，可以<code>git config --global alias.unstage reset HEAD</code></li>
+<li><code>git config --global alias.last log -1</code></li>
+</ol>
+
+<h1 id="搭建git-or-gitolite">搭建git or Gitolite</h1>
+
+<p>目前用不到😄</p>
+
+<hr />
+
+<p>用了一天时间学习git，弄懂了之前自己不懂git命令时，强行cp，ts，报错时却不知道为什么，学完后感觉常用到的也就add，commit，pull，push之类，其他的一些在最开始配置好就问题不大。
+这是在搭建hugo个人网站后的第一篇笔记，可能我的主题跟已往学习的markdown语法稍有不同，也花了一些时间在尝试语法，总之，学到新东西，并且在自己搭的喜欢的blog下记录，很开心，很有成就感的吖！</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>KennaNing </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=http://KennaNing.github.io/2019/learn_git/>http://KennaNing.github.io/2019/learn_git/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可& Special Thanks https://github.com/liuzc/LeaveIt/tree/master/exampleSite 
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="http://KennaNing.github.io/tags/tools/">
+                    #tools</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="http://KennaNing.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+         
+        
+        <a href="http://KennaNing.github.io/2019/build-blog-with-hugo/" class="next" rel="next" title="Build my blog with hugo">Build my blog with hugo&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2011 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="http://KennaNing.github.io">KennaNing</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>experiences on KennaNing&#39;s Home</title>
+    <link>http://KennaNing.github.io/tags/experiences/</link>
+    <description>Recent content in experiences on KennaNing&#39;s Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://KennaNing.github.io/tags/experiences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build my blog with hugo</title>
+      <link>http://KennaNing.github.io/2019/build-blog-with-hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://KennaNing.github.io/2019/build-blog-with-hugo/</guid>
+      <description>一直想找到自己喜欢的网站写自己的一些学习心得，试过onenote，简书等，onenote在linux上又只能用网页版，简书的层级布局略感粗糙，在搜寻了一阵之后，因缘巧合下得知hugo，恰好最近比较有空，就开始了又一次新的尝试。
+requirements Hugo github 有关git的基础知识  About hugo Hugo是用静态语言实现的静态网站生成器。官网有详细的安装，主题模版介绍，因为其简单，易用，高效，易部署而渐渐受到很多人的青睐。
+Install Hugo 环境：Mac
+1. brew install hugo 2. hugo version #检查安装是否成功  Creat a new site hugo new site blog # 在blog文件夹下建一个网站  check the tree categories tree blog # 如果你没有安装tree，则先 brew install tree  Add a theme 可以在https://themes.gohugo.io/选择自己喜欢的主题，本文使用简洁美观的Leavelt themes
+cd blog/themes git init git clone https://github.com/liuzc/LeaveIt.git theme = &amp;quot;LeaveIt&amp;quot; # 打开config.toml 编辑文件中的theme或者使用 echo &#39;theme=“LeavIt” &#39; &amp;gt;&amp;gt; config.toml 实现相同功能  Add some content hugo new posts/my_first_post.</description>
+    </item>
+    
+  </channel>
+</rss>
